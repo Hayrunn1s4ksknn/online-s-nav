@@ -146,7 +146,7 @@ async def read_users_me(current_user: User = Depends(get_current_user)):
 
 @app.get("/")
 def read_root():
-    return {"message": "Online Exam Platform Backend is running!"}
+    return {"message": "Online Sınav Platformu Backend'e Hoşgeldiniz!"}
 
 class Question(BaseModel):
     text: str
